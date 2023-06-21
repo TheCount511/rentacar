@@ -27,8 +27,6 @@ export interface OptionProps {
   title: string;
   value: string;
 }
-
-type StringOrNumber = string | number;
 export interface CustomFilterProps {
   title: string;
   options: OptionProps[];
